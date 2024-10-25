@@ -1,0 +1,83 @@
+.libre-bodoni-{
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .montserrat-{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  *{
+      background-color: aliceblue;
+      font-family: libre bodoni;
+      font-style: italic;
+      color: #a45c04;
+  }
+  
+  header{
+      background-image: url(imagens/nois.jpg);
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  
+  footer img{
+      width: 100%;
+  }
+  
+  .caixa{
+      position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: #a45c04;
+      background-color: aliceblue;
+      height: 400px;
+      width: 85%;
+      
+  }
+  
+  header h1{
+      font-size: 65px;
+  }
+
+  #linha{
+      width: 380px; 
+  }
+  
+  @media only screen and (max-width: 400px) {
+      .caixa{
+          height: 330px;
+          width: 100%;
+      }
+      
+      header h1{
+          font-size: 50px;
+      }
+      /*.row img {
+        width: 100%;
+        height: auto;
+        */
+      }
+main p{
+    font-style: normal;
+    font-size: 20px;
+}
+main h2{
+    font-size: 40px;
+}
+
+main{
+    background-color: white ;   
+     margin: 10px;
+}
